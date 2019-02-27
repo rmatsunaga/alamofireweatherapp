@@ -83,17 +83,17 @@ class ViewController: UIViewController {
         
         summary.topAnchor.constraint(equalTo: topLabel.bottomAnchor, constant: 10).isActive = true
         summary.heightAnchor.constraint(equalToConstant: 30).isActive = true
-        summary.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
+//        summary.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
         summary.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
 
         icon.topAnchor.constraint(equalTo: summary.bottomAnchor, constant: 10).isActive = true
         icon.heightAnchor.constraint(equalToConstant: 30).isActive = true
-        icon.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
+//        icon.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
         icon.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
 
         temperature.topAnchor.constraint(equalTo: icon.bottomAnchor, constant: 10).isActive = true
         temperature.heightAnchor.constraint(equalToConstant: 30).isActive = true
-        temperature.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
+//        temperature.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
         temperature.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
 
         
